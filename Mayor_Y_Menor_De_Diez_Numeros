@@ -1,0 +1,20 @@
+Algoritmo Mayor_Y_Menor_De_Diez_Numeros
+		Definir n, mayor, menor Como Real
+		Definir i Como Entero
+		Escribir "Ingrese el primer número:"
+		Leer n
+		mayor <- n
+		menor <- n	
+		Para i <- 2 Hasta 10 Con Paso 1 Hacer
+			Escribir "Ingrese el número ", i, ":"
+			Leer n
+			Si n > mayor Entonces
+				mayor <- n
+			FinSi
+			Si n < menor Entonces
+				menor <- n
+			FinSi
+		FinPara
+		Escribir "El número mayor es: ", mayor
+		Escribir "El número menor es: ", menor
+FinAlgoritmo
