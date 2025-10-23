@@ -1,0 +1,17 @@
+Algoritmo Mayor_de_dos_numeros
+		Definir N1, N2 Como Real
+		Escribir "Ingrese el primer número:"
+		Leer N1
+		Escribir "Ingrese el segundo número:"
+		Leer N2
+		Si N1 > N2 Entonces
+			Escribir "El número mayor es: ", N1
+		Sino
+			Si N2 > N1 Entonces
+				Escribir "El número mayor es: ", N2
+			Sino
+				Escribir "Son iguales"
+			FinSi
+		FinSi
+FinAlgoritmo
+
