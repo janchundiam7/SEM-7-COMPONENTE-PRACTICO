@@ -1,0 +1,18 @@
+Algoritmo Categorias_de_socios
+		Definir cat Como Caracter
+		Definir ant Como Entero
+		Escribir "Ingrese la categoría del socio (A, B o C):"
+		Leer cat
+		Escribir "Ingrese la antigüedad del socio en años:"
+		Leer ant
+		cat <- Mayusculas(cat)
+		Si cat = "A" O ant > 20 Entonces
+			Escribir "Socio VIP"
+		Sino
+			Si cat = "B" O (ant >= 10 Y ant <= 20) Entonces
+				Escribir "Socio Estándar"
+			Sino
+				Escribir "Socio Amateur"
+			FinSi
+		FinSi
+FinAlgoritmo
