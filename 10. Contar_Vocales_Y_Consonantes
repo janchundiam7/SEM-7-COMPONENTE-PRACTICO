@@ -1,0 +1,21 @@
+Algoritmo Contar_Vocales_Y_Consonantes
+		Definir fr Como Cadena
+		Definir i, voc, cons Como Entero
+		Definir let Como Caracter
+		voc <- 0
+		cons <- 0
+		Escribir "Ingrese una frase:"
+		Leer fr
+		Para i <- 1 Hasta Longitud(fr) Con Paso 1 Hacer
+			let <- Subcadena(fr, i, i)
+			Si let >= "A" Y let <= "Z" O let >= "a" Y let <= "z"  Entonces
+				Si let = "A" O let = "E" O let = "I" O let = "O" O let = "U" O let = "a" O let = "e" O let = "i" O let = "o" O let = "u" Entonces
+					voc <- voc + 1
+				Sino
+					cons <- cons + 1
+				FinSi
+			FinSi
+		FinPara
+		Escribir "Cantidad de vocales: ", voc
+		Escribir "Cantidad de consonantes: ", cons
+FinAlgoritmo
