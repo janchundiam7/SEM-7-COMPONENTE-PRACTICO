@@ -1,12 +1,12 @@
 Proceso Calculo_Areas
     Definir opcion Como Entero
     Definir lado, base, altura, radio, area Como Real
-    Escribir "MEN⁄ DE ¡REAS GEOM…TRICAS"
-    Escribir "1. ¡rea del Cuadrado"
-    Escribir "2. ¡rea del Rect·ngulo"
-    Escribir "3. ¡rea del Tri·ngulo Equil·tero"
-    Escribir "4. ¡rea del CÌrculo"
-    Escribir "Ingrese una opciÛn:"
+    Escribir "MEN√ö DE √ÅREAS GEOM√âTRICAS"
+    Escribir "1. √Årea del Cuadrado"
+    Escribir "2. √Årea del Rect√°ngulo"
+    Escribir "3. √Årea del Tri√°ngulo Equil√°tero"
+    Escribir "4. √Årea del C√≠rculo"
+    Escribir "Ingrese una opci√≥n:"
     Leer opcion
 	
     Segun opcion Hacer
@@ -14,29 +14,29 @@ Proceso Calculo_Areas
             Escribir "Ingrese el lado del cuadrado:"
             Leer lado
             area <- lado * lado
-            Escribir "El ·rea del cuadrado es: ", area
+            Escribir "El √°rea del cuadrado es: ", area
         2:
             Escribir "Ingrese la base:"
             Leer base
             Escribir "Ingrese la altura:"
             Leer altura
             area <- base * altura
-            Escribir "El ·rea del rect·ngulo es: ", area
+            Escribir "El √°rea del rect√°ngulo es: ", area
         3:
-            Escribir "Ingrese el lado del tri·ngulo equil·tero:"
+            Escribir "Ingrese el lado del tri√°ngulo equil√°tero:"
             Leer lado
             area <- (Raiz(3) / 4) * (lado * lado)
-            Escribir "El ·rea del tri·ngulo equil·tero es: ", area
+            Escribir "El √°rea del tri√°ngulo equil√°tero es: ", area
         4:
-            Escribir "Ingrese el radio del cÌrculo:"
+            Escribir "Ingrese el radio del c√≠rculo:"
             Leer radio
             Si radio > 0 Entonces
                 area <- PI * radio^2
-                Escribir "El ·rea del cÌrculo es: ", area
+                Escribir "El √°rea del c√≠rculo es: ", area
             Sino
                 Escribir "Error: el radio debe ser mayor a cero."
             FinSi
         De Otro Modo:
-            Escribir "OpciÛn no v·lida."
+            Escribir "Opci√≥n no v√°lida."
     FinSegun
 FinProceso
