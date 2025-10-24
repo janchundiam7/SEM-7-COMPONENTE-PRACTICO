@@ -1,8 +1,8 @@
 Algoritmo sin_titulo
-	//Abreviaturas: rAB->remuneración anual bruta
+	//Abreviaturas: rAB->remuneraciÃ³n anual bruta
 	// iT-> impuesto total
 	// excs-> exceso
-	// iFB-> impuesto fracción basico
+	// iFB-> impuesto fracciÃ³n basico
 	// pIM-> porcentaje impuesto
 	// sN-> sueldo neto
 	// iFE-> impuesto de fraccion de excedentes
@@ -10,7 +10,7 @@ Algoritmo sin_titulo
 	Definir rAB, iT, excs, iFB, pIM, sN, iFE Como Real
 	iT = 0
 	iFB = 0 
-	Escribir "Ingrese la remuneración anual bruta del empleado en dolares"
+	Escribir "Ingrese la remuneraciÃ³n anual bruta del empleado en dolares"
 	leer rAB
 	
 	Si rAB <= 12.080 Entonces
